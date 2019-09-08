@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+    android:orientation="vertical"
+android:layout_height="match_parent"
+tools:context=".Chat">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/tgl2"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/person" />
+
+    <TextView
+        android:layout_width="220dp"
+        android:layout_height="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/holo_blue_dark"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:text="Hii there...i wanna help  "
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:id="@+id/tgl2"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="7dp"
+        android:text="12 sep 2019" />
+
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="163dp">
+
+
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/cardPressed"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Yes"
+            android:src="@drawable/frame"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="61dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="30dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Seen"
+            android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_below="@id/tgl"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/person" />
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="64dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/holo_blue_dark"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="I want to know Ella Flight?"
+            android:textColor="#ffffff" />
+
+
+        <TextView
+            android:id="@+id/tgl"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            android:text="12 sep 2019" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp">
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="64dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="17dp"
+            android:background="@color/cardPressed"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:src="@drawable/frame"
+            android:text="It was a great one"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="101dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:text="Seen"
+            android:textColor="#000000" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="151dp">
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="28dp"
+            android:layout_toStartOf="@+id/button2"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorLink="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="73dp"
+            android:layout_height="42dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="49dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="60dp"
+            android:background="@android:color/holo_blue_dark"
+            android:text="Send"
+            android:src="@drawable/frame"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
