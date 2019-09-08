@@ -52,7 +52,7 @@
         android:layout_width="317dp"
         android:layout_height="55dp"
         android:layout_marginTop="160dp"
-        android:text="Getting Start"
+        android:text="Get Started"
         android:textAllCaps="false"
         android:textColor="#ffffff"
         android:textSize="20sp"

@@ -319,13 +319,13 @@
 
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/bookmark"/>
+                        android:src="@drawable/contact"/>
                     <TextView
 
 
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:text="pasindu1"
+                        android:text="Hotels"
                         android:textSize="18sp"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"
@@ -367,7 +367,7 @@
 
                         android:layout_height="wrap_content"
                         android:layout_width="wrap_content"
-                        android:text="pasindu2"
+                        android:text="FAQ"
                         android:textSize="18sp"
                         android:textColor="#6f6f6f"
                         android:layout_marginTop="12dp"
