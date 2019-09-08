@@ -15,11 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".GalleryAlbum"></activity>
+        <activity android:name=".Gallary"></activity>
         <activity android:name=".Flight" />
         <activity android:name=".pasikudaFlight"></activity>
         <activity android:name=".Chat" />
         <activity android:name=".dashboard" />
         <activity android:name=".MapActivity" />
+        <activity android:name=".Details" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

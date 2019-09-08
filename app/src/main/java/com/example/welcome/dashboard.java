@@ -23,6 +23,9 @@ public class dashboard extends AppCompatActivity {
 
         flight=(CardView)findViewById(R.id.flight_id);
         chat=(CardView)findViewById(R.id.chat_id);
+        maps=(CardView)findViewById(R.id.map_id);
+        galleryAlbum=(CardView)findViewById(R.id.gallery_id);
+
         flight.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -41,7 +44,6 @@ public class dashboard extends AppCompatActivity {
             }
         });
 
-        maps=(CardView)findViewById(R.id.map_id);
         maps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +54,6 @@ public class dashboard extends AppCompatActivity {
             }
         });
 
-        galleryAlbum=(CardView)findViewById(R.id.gallery_id);
         galleryAlbum.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

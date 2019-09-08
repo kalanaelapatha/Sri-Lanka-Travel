@@ -169,6 +169,7 @@ tools:context=".GalleryAlbum">
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/lColombo"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
