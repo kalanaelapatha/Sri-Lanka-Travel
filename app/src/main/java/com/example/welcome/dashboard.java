@@ -13,6 +13,7 @@ public class dashboard extends AppCompatActivity {
     private CardView chat;
 
     private CardView maps;
+    private CardView galleryAlbum;
 
 
     @Override
@@ -48,6 +49,15 @@ public class dashboard extends AppCompatActivity {
                 startActivity(map_id);
 
 
+            }
+        });
+
+        galleryAlbum=(CardView)findViewById(R.id.gallery_id);
+        galleryAlbum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gallery_id= new Intent(getApplicationContext(),GalleryAlbum.class);
+                startActivity(gallery_id);
             }
         });
 
