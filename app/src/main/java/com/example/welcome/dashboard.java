@@ -15,6 +15,8 @@ public class dashboard extends AppCompatActivity {
     private CardView maps;
     private CardView galleryAlbum;
 
+    private CardView places;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +27,8 @@ public class dashboard extends AppCompatActivity {
         chat=(CardView)findViewById(R.id.chat_id);
         maps=(CardView)findViewById(R.id.map_id);
         galleryAlbum=(CardView)findViewById(R.id.gallery_id);
+        places =(CardView)findViewById(R.id.places_id);
+
 
         flight.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +62,14 @@ public class dashboard extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent gallery_id= new Intent(getApplicationContext(),GalleryAlbum.class);
+                startActivity(gallery_id);
+            }
+        });
+
+        places.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent gallery_id= new Intent(getApplicationContext(),PlacesHome.class);
                 startActivity(gallery_id);
             }
         });
