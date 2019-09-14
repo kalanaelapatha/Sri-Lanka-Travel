@@ -2,4 +2,5 @@
     <string name="app_name">SLTravel</string>
     <string name="title_activity_gallary">Gallary</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_places_home">PlacesHome</string>
 </resources>

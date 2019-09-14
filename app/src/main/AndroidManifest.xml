@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.welcome">
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +8,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Country_Info_Activities"></activity>
+        <activity android:name=".Trincomalee_Places_Activity" />
+        <activity android:name=".Pasikuda_Places_Activity" />
+        <activity android:name=".Ella_Places_Activity" />
+        <activity android:name=".Kandy_Places_Activity" />
+        <activity
+            android:name=".PlacesHome"
+            android:label="@string/title_activity_places_home"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".AnuradhapuraGallery"></activity>
         <activity android:name=".PolonnaruwaGallery" />
         <activity android:name=".GalleryAlbum" />
@@ -53,5 +61,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+
 
 </manifest>
