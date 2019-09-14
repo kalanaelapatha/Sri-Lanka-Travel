@@ -18,6 +18,8 @@ public class dashboard extends AppCompatActivity {
     private CardView places;
     private CardView countries;
 
+    private CardView hotels;
+    private CardView faq;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,7 +32,8 @@ public class dashboard extends AppCompatActivity {
         galleryAlbum=(CardView)findViewById(R.id.gallery_id);
         places =(CardView)findViewById(R.id.places_id);
         countries =(CardView)findViewById(R.id.countries_id);
-
+        hotels = (CardView) findViewById(R.id.hotel_id);
+        faq = (CardView) findViewById(R.id.faq_id);
 
         flight.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -84,5 +87,20 @@ public class dashboard extends AppCompatActivity {
             }
         });
 
+        hotels.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), HotelActivity.class );
+                startActivity(intent);
+            }
+        });
+
+        faq.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), FaqActivity.class );
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bghotel"
+    tools:context=".CinnamonActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sri Lanka Travel - Hotels"
+                android:textColor="#ffffff"
+                android:textSize="22sp">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="3">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cinamon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:background="@drawable/ripple"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:foreground="?android:selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="12dp">
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Cinnamon Lodge Habarana"
+                        android:textAlignment="viewStart"
+                        android:textColor="#6f6f6f"
+
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+
+                        android:layout_width="300dp"
+                        android:layout_height="220dp"
+                        android:src="@drawable/cinamon"/>
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="4-star hotel"
+                        android:textAlignment="center"
+                        android:textColor="#6f6f6f"
+
+                        android:textSize="18sp" />
+
+                    <TextView
+
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="02 50150, Habarana Roundabout, Habarana•0662 270 011 "
+                        android:textAlignment="center"
+                        android:textColor="#6f6f6f"
+                        android:layout_marginBottom="10dp"
+                        android:textSize="18sp" />
+
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="No of people" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="No of rooms" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="No of days" />
+
+                    <TextView
+
+
+                        android:layout_width="262dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Packages"
+                        android:textAlignment="viewStart"
+                        android:textColor="#6f6f6f"
+                        android:textSize="19sp"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:layout_width="224dp"
+                        android:layout_height="30dp"
+                        android:text="Luxury" />
+
+
+                    <RadioButton
+                        android:layout_width="224dp"
+                        android:layout_height="30dp"
+                        android:text="Gold" />
+
+                    <RadioButton
+                        android:layout_width="224dp"
+                        android:layout_height="30dp"
+                        android:text="Romantic" />
+
+                    <RadioButton
+                        android:layout_width="224dp"
+                        android:layout_height="30dp"
+                        android:text="Family" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:hint="From Date" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="date"
+                        android:hint="To Date" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/corner_edit"
+                        android:textColor="@android:color/white"
+                        android:layout_marginTop="10dp"
+                        android:text="BOOK NOW"
+                        />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </GridLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
