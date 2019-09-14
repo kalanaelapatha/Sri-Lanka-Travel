@@ -43,6 +43,7 @@ tools:context=".GalleryAlbum">
 
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/iPolonnaruwa"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -127,6 +128,8 @@ tools:context=".GalleryAlbum">
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+
+            android:id="@+id/iAnuradhapura"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -212,6 +215,7 @@ tools:context=".GalleryAlbum">
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/iJaffna"
             android:layout_width="48dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
@@ -220,7 +224,8 @@ tools:context=".GalleryAlbum">
             app:cardCornerRadius="12dp"
             android:foreground="?android:selectableItemBackground"
             android:clickable="true"
-            android:layout_margin="12dp">
+            android:layout_margin="12dp"
+            tools:ignore="InvalidId">
 
 
             <LinearLayout
