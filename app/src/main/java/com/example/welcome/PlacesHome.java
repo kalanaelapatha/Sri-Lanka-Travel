@@ -68,7 +68,6 @@ public class PlacesHome extends AppCompatActivity {
                 Intent trincomalee_activity_details = new Intent(getApplicationContext(),Trincomalee_Places_Activity.class);
                 startActivity(trincomalee_activity_details);
 
-
             }
         });
 

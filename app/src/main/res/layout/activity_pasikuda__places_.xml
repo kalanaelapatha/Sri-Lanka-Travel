@@ -16,7 +16,6 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="Pasikuda - The pool beach"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,6 +23,7 @@
         app:layout_constraintVertical_bias="0.076"
         android:background="@color/cast_expanded_controller_ad_container_white_stripe_color"
         android:textColor="#FFFAFA"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         />
 
     <ImageView

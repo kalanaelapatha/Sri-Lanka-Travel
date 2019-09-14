@@ -16,6 +16,7 @@ public class dashboard extends AppCompatActivity {
     private CardView galleryAlbum;
 
     private CardView places;
+    private CardView countries;
 
 
     @Override
@@ -28,6 +29,7 @@ public class dashboard extends AppCompatActivity {
         maps=(CardView)findViewById(R.id.map_id);
         galleryAlbum=(CardView)findViewById(R.id.gallery_id);
         places =(CardView)findViewById(R.id.places_id);
+        countries =(CardView)findViewById(R.id.countries_id);
 
 
         flight.setOnClickListener(new View.OnClickListener() {
@@ -69,11 +71,18 @@ public class dashboard extends AppCompatActivity {
         places.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent gallery_id= new Intent(getApplicationContext(),PlacesHome.class);
-                startActivity(gallery_id);
+                Intent places_id= new Intent(getApplicationContext(),PlacesHome.class);
+                startActivity(places_id);
             }
         });
 
+        countries.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent countries_id= new Intent(getApplicationContext(),Country_Info_Activities.class);
+                startActivity(countries_id);
+            }
+        });
 
     }
 }
