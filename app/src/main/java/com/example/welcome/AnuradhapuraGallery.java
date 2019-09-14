@@ -1,5 +1,4 @@
 package com.example.welcome;
-
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +14,8 @@ import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-public class Gallary extends AppCompatActivity {
+
+    public class AnuradhapuraGallery extends AppCompatActivity {
 
     GridView Grid;
     GRIDAdapter adapter;
@@ -23,7 +23,7 @@ public class Gallary extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_gallary);
+        setContentView(R.layout.activity_anuradhapura_gallery);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -47,9 +47,9 @@ public class Gallary extends AppCompatActivity {
 //                       R.drawable.image7, R.drawable.image8};
 //       }
 //
-        final Integer[] image = new Integer[]{R.drawable.col1, R.drawable.col2, R.drawable.col3,
-                R.drawable.col4, R.drawable.col5, R.drawable.col6,
-                R.drawable.col6, R.drawable.col7};
+        final Integer[] image = new Integer[]{R.drawable.anu2, R.drawable.anu3, R.drawable.anu5,
+                R.drawable.anu7, R.drawable.anu4, R.drawable.pol9,
+                R.drawable.pol11, R.drawable.pol10};
 
         Grid = (GridView)findViewById(R.id.MyGrid);
         adapter = new GRIDAdapter(getApplicationContext(), R.layout.grid_item, image);
@@ -77,7 +77,7 @@ public class Gallary extends AppCompatActivity {
             super(context, resource, image);
             Image = image;
             this.resource = resource;
-            inflater = (LayoutInflater)Gallary.this.getSystemService(LAYOUT_INFLATER_SERVICE);
+            inflater = (LayoutInflater)AnuradhapuraGallery.this.getSystemService(LAYOUT_INFLATER_SERVICE);
         }
 
         @Override
