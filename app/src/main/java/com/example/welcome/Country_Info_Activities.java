@@ -65,10 +65,7 @@ public class Country_Info_Activities extends AppCompatActivity {
                         setContentView(webView);
                         webView.loadUrl("http://www.immigration.gov.lk/web/index.php?option=com_content&view=article&id=137&Itemid=190&lang=en");
                         break;
-
                 }
-
-
             }
         });
     }
